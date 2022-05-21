@@ -41,9 +41,6 @@ const StoreInfoSchema = new Schema(
 
 
 
-
-
-
 const StoreInfoModel = mongoose.model('StoreInfo', StoreInfoSchema);
 
-module.exports = StoreModel;
+module.exports = StoreInfoModel;

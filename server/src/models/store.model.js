@@ -72,16 +72,10 @@ const StoreInfoSchema = new Schema(
             maxLength: 100,
         },
         openingDay: {
-            type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
+            type: Date,
         },
         createDay: {
-            type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
+            type: Date,
         },
     },
     {

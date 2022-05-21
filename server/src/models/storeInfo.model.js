@@ -5,23 +5,20 @@ const Schema = mongoose.Schema;
 
 const StoreInfoSchema = new Schema(
     {
-        id_Store: {
+        name_store: {
             type: String,
             require : true,
-        },
-        name_Store: {
-            type: String,
         },
         address: {
             type: String,
         },
-        type_Store: {
+        type_store: {
             type: String,
         },
         phoneNumber: {
             type: String,
         },
-        name_Staff: {
+        name_staff: {
             type: String,
         },
         logo: {

@@ -4,12 +4,9 @@ const Schema = mongoose.Schema;
 
 const BillOfLadingSchema  = new Schema(
     {
-        id_BillOfLading: {
-            type: String,
-            require : true,
-        },
-        name_Product: {
+        name_product: {
             type: [String],
+            require : true,
         },
         quantity: {
             type: [Number]

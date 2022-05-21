@@ -4,14 +4,10 @@ const Schema = mongoose.Schema;
 
 const CustomerSchema = new Schema(
     {
-        id_Customer: {
-            type: String,
-            require: true,
-        },
-        name_Customer: {
+        name_customer: {
             type: String,
         },
-        sex_Customer: {
+        sex_customer: {
             typr: String,
         },
     },

@@ -6,14 +6,11 @@ const Schema = mongoose.Schema;
 
 const ProductSchema = new Schema(
     {
-        id_Product: {
+        name_product: {
             type: String,
             require : true,
         },
-        name_Product: {
-            type: String,
-        },
-        price_Product: {
+        price_product: {
             type: String,
         },
         inventory: {

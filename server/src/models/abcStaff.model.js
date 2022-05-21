@@ -4,14 +4,11 @@ const Schema = mongoose.Schema;
 
 const AbcStaffSchema = new Schema(
     {
-        id_Abc: {
+        name_abc: {
             type: String,
             require : true,
         },
-        name_Abc: {
-            type: String,
-        },
-        sex_Abc: {
+        sex_abc: {
             type: String,
         },
     },

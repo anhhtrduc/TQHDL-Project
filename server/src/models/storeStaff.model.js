@@ -5,17 +5,13 @@ const Schema = mongoose.Schema;
 
 const StoreStaffSchema = new Schema(
     {
-        id_Staff: {
-            type: String,
-            require: true,
-        },
-        name_Staff: {
+        name_staff: {
             type: String,
         },
-        name_Store: {
+        name_store: {
             type: String,
         },
-        sex_Staff: {
+        sex_staff: {
             type: String,
         },
     },

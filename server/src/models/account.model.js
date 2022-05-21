@@ -5,14 +5,14 @@ const Schema = mongoose.Schema;
 
 const AccountSchema = new Schema(
     {
-        name_Account: {
+        name_account: {
             type: String,
             require: true,
         },
         password: {
             type: String
         },
-        type_Account: {
+        type_account: {
             type: Number
         }
     },

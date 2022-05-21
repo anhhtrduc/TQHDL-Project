@@ -1,75 +1,31 @@
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
-const StoreSchema = new Schema(
-    {
-        name: {
-            type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
-        },
-        email: {
-            type: String,
-            trim: true,
-            match: [
-                /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
-                'Please fill a valid email address',
-            ],
-        },
-        password: {
-            type: String,
-        },
-    },
-    {
-        timestamps: true,
-    }
-);
 
 // 
 const StoreInfoSchema = new Schema(
     {
         id_Store: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
+            require : true,
         },
         name_Store: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         address: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
-        type: {
+        type_Store: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         phoneNumber: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         name_Staff: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         logo: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         openingDay: {
             type: Date,
@@ -87,21 +43,13 @@ const AbcStaffSchema = new Schema(
     {
         id_Abc: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
+            require : true,
         },
         name_Abc: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         sex_Abc: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
     },
     {
@@ -113,27 +61,16 @@ const StoreStaffSchema = new Schema(
     {
         id_Staff: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
+            require: true,
         },
         name_Staff: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         name_Store: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
         sex_Staff: {
             type: String,
-            trim: true,
-            minLength: 2,
-            maxLength: 100,
         },
     },
     {
@@ -141,8 +78,122 @@ const StoreStaffSchema = new Schema(
     }
 );
 
+
+const ProductSchema = new Schema(
+    {
+        id_Product: {
+            type: String,
+            require : true,
+        },
+        name_Product: {
+            type: String,
+        },
+        price_Product: {
+            type: String,
+        },
+        inventory: {
+            type: Boolean,
+        },
+        image: {
+            type: String 
+        },
+
+    },
+    {
+        timestamps: true,
+    }
+);
+
+const  BillOfSaleSchema= new Schema(
+    {
+        id_BillOfSale: {
+            type: String,
+            require : true,
+        },
+        id_Customer: {
+            type: String,
+        },
+        name_Product: {
+            type: [String],
+        },
+        quantity: {
+            type: [Number]
+        },
+        total: {
+            type: Number
+        },
+        createDayBill: {
+            type: Date
+        },
+    },
+    {
+        timestamps: true,
+    }
+);
+
+const AccountSchema = new Schema(
+    {
+        name_Account: {
+            type: String,
+            require: true,
+        },
+        password: {
+            type: String
+        },
+        type_Account: {
+            type: Number
+        }
+    },
+    {
+        timestamps: true,
+    }
+);
+
+const BillOfLadingSchema  = new Schema(
+    {
+        id_BillOfLading: {
+            type: String,
+            require : true,
+        },
+        name_Product: {
+            type: [String],
+        },
+        quantity: {
+            type: [Number]
+        },
+        total: {
+            type: Number
+        },
+    },
+    {
+        timestamps: true,
+    }
+);
+
+const CustomerSchema = new Schema(
+    {
+        id_Customer: {
+            type: String,
+            require: true,
+        },
+        name_Customer: {
+            type: String,
+        },
+        sex_Customer: {
+            typr: String,
+        },
+    },
+    {
+        timestamps: true,
+    }
+)
+
 //
+// const mongoose = require('mongoose');
+
+// const Schema = mongoose.Schema;
 
 const StoreModel = mongoose.model('Store', StoreScheme);
 
 module.exports = StoreModel;
+ 

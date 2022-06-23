@@ -1,0 +1,104 @@
+{
+    "account": [
+        {
+            "name": "minhan0402",
+            "password": "123456",
+            "type": "3"
+        },
+        {
+            "name": "ducanhanh",
+            "password": "112233",
+            "type": "3"
+        },
+        {
+            "name": "longconnn",
+            "password": "iyoui123",
+            "type": ""
+        },
+        {
+            "name": "trungem1102",
+            "password": "qwertyuiop",
+            "type": "3"
+        },
+        {
+            "name": "sweet_kristy",
+            "password": "18atcskd2w",
+            "type": "3"
+        },
+        {
+            "name": "bubbly_snowflake",
+            "password": "Password1",
+            "type": "3"
+        },
+        {
+            "name": "fairy.princess.kristy",
+            "password": "1q2w3e4r5t",
+            "type": "3"
+        },
+        {
+            "name": "nguyendoananhthy",
+            "password": "1q2w3e",
+            "type": "3"
+        },
+        {
+            "name": "dandanthanh",
+            "password": "1qaz2wsx3edc",
+            "type": "3"
+        },
+        {
+            "name": "hoangphuc0412",
+            "password": "zxcvbnm",
+            "type": "3"
+        },
+        {
+            "name": "ngoctrinh111",
+            "password": "butterfly",
+            "type": "3"
+        },
+        {
+            "name": "hungnguyen1302",
+            "password": "abcd1234",
+            "type": "3"
+        },
+        {
+            "name": "nhanvien_3",
+            "password": "whatever",
+            "type": "1"
+        },
+        {
+            "name": "nhanvien_2",
+            "password": "khongbiet",
+            "type": "1"
+        },
+        {
+            "name": "nhanvien_1",
+            "password": "0849044044",
+            "type": "1"
+        },
+        {
+            "name": "thitca_longthanh",
+            "password": "asdfghjkl",
+            "type": "2"
+        },
+        {
+            "name": "traicay_huyvu",
+            "password": "myspace1",
+            "type": "2"
+        },
+        {
+            "name": "sua_minhan",
+            "password": "789456123",
+            "type": "2"
+        },
+        {
+            "name": "gao_daiphat",
+            "password": "londonisblue",
+            "type": "2"
+        },
+        {
+            "name": "thuoctay_phuongnam",
+            "password": "gloryglory",
+            "type": "2"
+        }
+    ]
+}

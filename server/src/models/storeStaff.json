@@ -1,0 +1,29 @@
+{
+    "storeStaff": [
+        {
+            "name": "Trần Minh Ân",
+            "store_name": "Minh Ân",
+            "sex": "nam"
+        },
+        {
+            "name": "Huỳnh Thanh Đan",
+            "store_name": "Long Thành",
+            "sex": "nam"
+        },
+        {
+            "name": "Nguyễn Thiết Sự",
+            "store_name": "Đại Phát",
+            "sex": "nam"
+        },
+        {
+            "name": "Trần Thị Minh",
+            "store_name": "Phương Nam",
+            "sex": "nữ"
+        },
+        {
+            "name": "Trần Minh Triết",
+            "store_name": "Huy Vũ",
+            "sex": "nam"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "abcStaff": [
+        {
+            "name": "Trần Hoàng Phúc",
+            "sex": "nam"
+        },
+        {
+            "name": "Đào Thị Bảo Ngân",
+            "sex": "nữ"
+        },
+        {
+            "name": "Trần Ngọc Trinh",
+            "sex": "nữ"
+        }
+    ]
+}

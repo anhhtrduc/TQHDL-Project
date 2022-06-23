@@ -1,0 +1,52 @@
+{
+    "customer": [
+        {
+            "name": "Nguyễn Minh An",
+            "sex": "nam"
+        },
+        {
+            "name": "Trần Đức Anh",
+            "sex": "nam"
+        },
+        {
+            "name": "Trần Quốc Long",
+            "sex": "nam"
+        },
+        {
+            "name": "Nguyễn Phú Trung Anh",
+            "sex": "nam"
+        },
+        {
+            "name": "Nguyễn Văn Toàn",
+            "sex": "nam"
+        },
+        {
+            "name": "Nguyễn Công Phượng",
+            "sex": "nam"
+        },
+        {
+            "name": "Lương Xuân Trường",
+            "sex": "nam"
+        },
+        {
+            "name": "Nguyễn Đoàn Anh Thy",
+            "sex": "nữ"
+        },
+        {
+            "name": "Vũ Văn Thanh",
+            "sex": "nam"
+        },
+        {
+            "name": "Trần Hoàng Phúc",
+            "sex": "nam"
+        },
+        {
+            "name": "Trần Ngọc Trinh",
+            "sex": "nữ"
+        },
+        {
+            "name": "Nguyễn Phi Hùng",
+            "sex": "nam"
+        }
+    ]
+}

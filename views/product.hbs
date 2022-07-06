@@ -1,0 +1,26 @@
+<div class='container'>
+    <div class='row row-cols-1 row-cols-md-3'>
+        {{#each this.product as |P|}}
+            <div class='col mb-4'>
+
+                <div class='card h-100'>
+                    <img
+                        style='height:194px'
+                        src='{{P.image}}'
+                        class='card-img-top'
+                        alt='...'
+                    />
+                    <div class='card-body'>
+                        <h5 class='card-title'>{{P.name}}</h5>
+                        <p class='card-text'>{{P.price}}</p>
+                        {{#if P.quantity}}
+                            <p class='card-text'>Số lượng: {{P.quantity}}</p>
+                        {{/if}}
+
+                    </div>
+                </div>
+
+            </div>
+        {{/each}}
+    </div>
+</div>

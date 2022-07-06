@@ -1,0 +1,15 @@
+<div class='container'>
+    <div class='row row-cols-1 row-cols-md-3'>
+        {{#each this.customers as |C|}}
+            <div class='col mb-4'>
+                <div class='card h-100'>
+                    <div class='card-body'>
+                        <h5 class='card-title'>{{C.name}}</h5>
+                        <p class='card-text'>{{C.phone}}</p>
+                        <p class='card-text'>{{C.email}}</p>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

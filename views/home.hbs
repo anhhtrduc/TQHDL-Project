@@ -1,0 +1,167 @@
+	<img
+        class='img-fluid'
+        src='https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/06/05174400/Types-of-Digital-Marketing.png'
+        alt=''
+    />
+    <br />
+    <hr />
+	{{#if lcIsAuthenticated}}
+    <h1>Featured</h1>
+	{{/if}}
+    {{#ifStr lcAuthUser.role 1}}
+	<table class='table table-striped'>
+        <thead>
+            <tr>
+                <th scope='col'>#</th>
+                <th scope='col'>Tên chức năng</th>
+                <th scope='col'></th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope='row'>1</th>
+                <td>Xem top các sản phẩm bán chạy nhất trong năm</td>
+                <td><a class="btn btn-primary" href="/top_sold_visualize" role="button">Xem</a></td>
+            </tr>
+            <tr>
+                <th scope='row'>2</th>
+                <td>Xem các sản phẩm đã bán</td>
+                <td><a class="btn btn-primary" href="/sold" role="button">Xem</a></td>
+            </tr>
+            <tr>
+                <th scope='row'>3</th>
+                <td>Xem các sản phẩm tồn kho</td>
+                <td><a class="btn btn-primary" href="/product" role="button">Xem</a></td>
+
+            </tr>
+            <tr>
+                <th scope='row'>4</th>
+                <td>Xem danh sách người mua hàng</td>
+                <td><a class="btn btn-primary" href="/customer" role="button">Xem</a></td>
+
+            </tr>
+            
+            
+        </tbody>
+    </table>
+	{{/ifStr}}
+    {{#ifStr lcAuthUser.role 2}}
+	<div class="container">
+		<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img style="height:194px" src="https://truongphat247.vn/wp-content/uploads/2019/08/tu-mat-dung-thit-lon-sach-vinacool.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cửa hàng thịt</h5>
+        <p class="card-text">Số điện thoại: 0833318889</p>
+        <p class="card-text">Email: daiphat@gmail.com</p>
+        <p class="card-text">CMND: 300111149</p>
+        <p class="card-text">Địa chỉ: TPHCM</p>
+        <p class="card-text">Mã giấy phép kinh doanh: 41O8036796</p>
+        <p class="card-text">Mã CNATTP: 41O8036796</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img  src="https://chogaomientay.com/wp-content/uploads/2020/02/m%E1%BB%9F-%C4%91%E1%BA%A1i-l%C3%BD-g%E1%BA%A1o-th%C3%A0nh-c%C3%B4ng-2_LI-1-1020x570.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cửa hàng lúa gạo</h5>
+        <p class="card-text">Số điện thoại: 0849042052</p>
+		<p class="card-text">Email: minhan04022000@gmail.com</p>
+        <p class="card-text">CMND:301722720</p>
+        <p class="card-text">Địa chỉ: Long An</p>
+        <p class="card-text">Mã giấy phép kinh doanh: 50H8026994</p>
+        <p class="card-text">Mã CNATTP: 50H8026994</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img style="height:194px" src="https://www.deco-crystal.com/wp-content/uploads/2021/08/thiet-ke-shop-giay-dep-nho.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cửa hàng giày dép</h5>
+        <p class="card-text">Số điện thoại: 0853718650</p>
+		<p class="card-text">Email: chgd@gmail.com</p>
+        <p class="card-text">CMND: 261576897</p>
+        <p class="card-text">Địa chỉ: Bình Thuận</p>
+        <p class="card-text">Mã giấy phép kinh doanh: 86H8026564</p>
+        <p class="card-text">Mã CNATTP: 86H8026564</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img style="height:194px" src="https://toplist.vn/images/800px/nha-thuoc-phuong-chinh-160485.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cửa hàng thuốc tây</h5>
+        <p class="card-text">Số điện thoại: 0908322878</p>
+		<p class="card-text">Email: nhathuoclongchau@gmail.com</p>
+        <p class="card-text">CMND: 261567567</p>
+        <p class="card-text">Địa chỉ: TPHCM</p>
+        <p class="card-text">Mã giấy phép kinh doanh: 45G8889104</p>
+        <p class="card-text">Mã CNATTP: 45G8889104</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="https://useful.vn/wp-content/uploads/cac-dia-chi-cua-hang-rau-sach-uy-tin-tai-tp-hcm2010.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cửa hàng rau củ</h5>
+        <p class="card-text">Số điện thoại: 0888655549</p>
+		<p class="card-text">Email:raucuminhtriet1@gmail.com</p>
+        <p class="card-text">CMND: 301799971</p>
+        <p class="card-text">Địa chỉ: Long An</p>
+        <p class="card-text">Mã giấy phép kinh doanh: 50T8889991</p>
+        <p class="card-text">Mã CNATTP: 50T8889991</p>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img style="height:194px" src="https://1.bp.blogspot.com/-sVYrww6Mo5o/XICaJEiTMbI/AAAAAAAABRI/7XWTqVcHJq0W80I76pVED5NDe5Crey3nwCLcBGAs/s1600/mo-cua-hang-tap-hoa-o-que.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cửa hàng tạp hóa</h5>
+        <p class="card-text">Số điện thoại: 0828759979</p>
+		<p class="card-text">Email: hoangphuc9979@gmail.com</p>
+        <p class="card-text">CMND: 301722770</p>
+        <p class="card-text">Địa chỉ: Long An</p>
+        <p class="card-text">Mã giấy phép kinh doanh: 50F3979288</p>
+        <p class="card-text">Mã CNATTP: 50F3979288</p>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	<table class='table table-striped'>
+        <thead>
+            <tr>
+                <th scope='col'>#</th>
+                <th scope='col'>Tên chức năng</th>
+                <th scope='col'></th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope='row'>1</th>
+                <td>Xem doanh thu của công ty theo năm</td>
+                <td><a class="btn btn-primary" href="/turnover" role="button">Xem</a></td>
+
+                
+            </tr>
+            <tr>
+                <th scope='row'>2</th>
+                <td>Xem doanh thu theo tháng</td>
+                <td><a class="btn btn-primary" href="/turnover_month" role="button">Xem</a></td>
+
+                
+            </tr>
+            
+        </tbody>
+    </table>
+	{{/ifStr}}
+    
+</div>
